@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "sheetsumoto.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 350,
+				"h": 50
+			},
+			"scale": 1,
+			"frames": [
+
+				{
+					"filename": "sumoto1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 48
+					},
+					"frame": {
+						"x": 1,
+						"y": 53,
+						"w": 50,
+						"h": 48
+					}
+				},
+				{
+					"filename": "sumoto2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 48
+					},
+					"frame": {
+						"x": 1,
+						"y": 103,
+						"w": 50,
+						"h": 48
+					}
+				},
+				{
+					"filename": "sumotoD1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 50
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 50,
+						"h": 50
+					}
+				},
+				{
+					"filename": "sumotoD2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 50
+					},
+					"frame": {
+						"x": 1,
+						"y": 203,
+						"w": 49,
+						"h": 50
+					}
+				},
+				{
+					"filename": "sumotoG1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 50
+					},
+					"frame": {
+						"x": 1,
+						"y": 255,
+						"w": 49,
+						"h": 50
+					}
+				},
+				{
+					"filename": "sumotoG2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 50
+					},
+					"frame": {
+						"x": 1,
+						"y": 307,
+						"w": 49,
+						"h": 50
+					}
+				},
+				{
+					"filename": "sumotoM.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 48
+					},
+					"frame": {
+						"x": 1,
+						"y": 153,
+						"w": 50,
+						"h": 48
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:605365390cc7ee1ccac79b7e9f6f385e:c07565167841116c555249ac829ec05d:6031e9930277a35183793098440e68f4$"
+	}
+}
