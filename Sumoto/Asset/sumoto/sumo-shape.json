@@ -1,0 +1,185 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"sumoto1": {
+		"type": "fromPhysicsEditor",
+		"label": "sumoto1",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"circle": {
+					"x": 24.210526315789473,
+					"y": 24.42105263157895,
+					"radius": 21.157894736842096
+				}
+			}
+		]
+	},
+	"sumoto2": {
+		"type": "fromPhysicsEditor",
+		"label": "sumoto2",
+		"isStatic": false,
+		"density": 0.10000000149011612,
+		"restitution": 0,
+		"friction": 0.10000000149011612,
+		"frictionAir": 0.009999999776482582,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"circle": {
+					"x": 24.210526315789473,
+					"y": 24.42105263157895,
+					"radius": 21.157894736842096
+				}
+			}
+		]
+	},
+	"sumotoD1": {
+		"type": "fromPhysicsEditor",
+		"label": "sumotoD1",
+		"isStatic": false,
+		"density": 0.10000000149011612,
+		"restitution": 0,
+		"friction": 0.10000000149011612,
+		"frictionAir": 0.009999999776482582,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"circle": {
+					"x": 26.105263157894736,
+					"y": 24.42105263157895,
+					"radius": 21.157894736842096
+				}
+			}
+		]
+	},
+	"sumotoD2": {
+		"type": "fromPhysicsEditor",
+		"label": "sumotoD2",
+		"isStatic": false,
+		"density": 0.10000000149011612,
+		"restitution": 0,
+		"friction": 0.10000000149011612,
+		"frictionAir": 0.009999999776482582,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"circle": {
+					"x": 26.631578947368425,
+					"y": 24.73684210526316,
+					"radius": 21.157894736842096
+				}
+			}
+		]
+	},
+	"sumotoG1": {
+		"type": "fromPhysicsEditor",
+		"label": "sumotoG1",
+		"isStatic": false,
+		"density": 0.10000000149011612,
+		"restitution": 0,
+		"friction": 0.10000000149011612,
+		"frictionAir": 0.009999999776482582,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"circle": {
+					"x": 23.789473684210524,
+					"y": 24.421052631578945,
+					"radius": 21.157894736842096
+				}
+			}
+		]
+	},
+	"sumotoG2": {
+		"type": "fromPhysicsEditor",
+		"label": "sumotoG2",
+		"isStatic": false,
+		"density": 0.10000000149011612,
+		"restitution": 0,
+		"friction": 0.10000000149011612,
+		"frictionAir": 0.009999999776482582,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"circle": {
+					"x": 23.894736842105264,
+					"y": 24.421052631578952,
+					"radius": 21.157894736842096
+				}
+			}
+		]
+	},
+	"sumotoM": {
+		"type": "fromPhysicsEditor",
+		"label": "sumotoM",
+		"isStatic": false,
+		"density": 0.10000000149011612,
+		"restitution": 0,
+		"friction": 0.10000000149011612,
+		"frictionAir": 0.009999999776482582,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"circle": {
+					"x": 23.999999999999996,
+					"y": 24.421052631578952,
+					"radius": 21.157894736842096
+				}
+			}
+		]
+	}
+}
