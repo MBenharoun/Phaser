@@ -14,3 +14,7 @@ function startgame(){
 function credit(){
     open('index.html',"_self");
 }
+function go(){
+
+    open('game.html',"_self");
+}

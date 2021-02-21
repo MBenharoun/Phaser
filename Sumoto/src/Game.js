@@ -12,8 +12,6 @@ var config = {
                 y:0,
                 x:0
             },
-
-
         }
     },
     scene: {
@@ -35,6 +33,8 @@ var player,
     layer1,
     layer2,
     layer3,
+    layer4,
+    life,
     SPEED = 150;
 
 
@@ -48,6 +48,7 @@ var player,
     }
 
     function create () {
+        life = 3;
     map = this.make.tilemap({ key: "map",tileWidth: 50, tileHeight: 50  });
     tileset = map.addTilesetImage("spritsheetwall","tiles");
 
@@ -59,7 +60,9 @@ var player,
     layer3 = map.createLayer("ghost box", tileset, 50, 50);
     layer3.setCollisionByProperty({collide: true});
 
-    shapes= this.cache.json.get('sumo-shape')
+    layer4 = map.createLayer("ghost box Down", tileset, 50, 50);
+    layer4.setCollisionByProperty({collide: true});
+
     player = this.physics.add.sprite(14*50+25, 6*50+25, 'sumo',1);
     player.setCircle(18,4,4);
 
@@ -106,17 +109,28 @@ var player,
                 pillsCount++;
             }
         });
+        ghost = this.physics.add.group();
+        map.filterObjects("Object", function (value, index, array) {
+            if(value.name == "ghost") {
+            // let ghost = new Ghost(scene, position, skins[i]);
+            // ghost.push(ghost);
+            // ghost.add(ghost.sprite);
+            // i++;
+        }})
 
         this.physics.add.collider(player, layer2);
         this.physics.add.collider(player, layer3);
+        this.physics.add.collider(player, layer4);
+        this.physics.add.collider(player, ghost);
         this.physics.add.overlap(player, pills, function(sprite, pill) {
             pill.disableBody(true, true);
             pillsAte++;
             player.score+=10;
             if(pillsCount==pillsAte) {
-                reset();
+                another();
             }
         }, null, this);
+
     }
     function update () {
 
@@ -148,4 +162,18 @@ var player,
     }
 
 }
+function die(){
+    player.active=false;
+    player.playing=false;
+    player.life--;
+   }
+function another(){
+open("restart.html",'_self');
+setTimeout(5000);
 
+}
+
+function go(){
+        setTimeout(5000)
+    open('game.html',"_self");
+}
